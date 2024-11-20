@@ -1,0 +1,195 @@
+bsn,name,schulform_nummer,schulform_name,bezirk_nummer,bezirk_name,plz,adresse,lon,lat,n_schueler,n_bestanden,pct_bestanden,pct_fail,abischnitt
+01A04,Berlin-Kolleg,5,"Kollegs, Abendgymnasien",1,Mitte,10551,Turmstr. 75,13.3346884,52.5263851,61,56,91.8,8.200000000000003,2.3375
+01B01,OSZ Banken  Immobilien und Versicherungen,1,berufliche Schulen,1,Mitte,10557,Alt-Moabit 10,13.3591805,52.5240235,28,21,75,25,2.57142857142857
+01B03,OSZ Kommunikations-  Informations- und Medientechnik,1,berufliche Schulen,1,Mitte,13359,Osloer Str. 23-26,13.3796433,52.5571794,42,41,97.62,2.3799999999999955,2.68536585365854
+01K03,Ernst-Reuter-Schule,3,ISS/Gemeinschaftsschulen,1,Mitte,13355,Stralsunder Str. 57,13.3934578,52.5391878,48,31,64.58,35.42,2.89032258064516
+01K04,Heinrich-von-Stephan-Gemeinschaftsschule,3,ISS/Gemeinschaftsschulen,1,Mitte,10553,Neues Ufer 6,13.3165543,52.5247654,50,45,90,10,2.66666666666667
+01K10,Theodor-Heuss-Gemeinschaftsschule,3,ISS/Gemeinschaftsschulen,1,Mitte,10559,Quitzowstr. 141,13.3538373,52.5354154,69,54,78.26,21.739999999999995,2.77407407407407
+01P06,Canisius-Kolleg,4,Schulen in privater Trägerschaft,1,Mitte,10785,Tiergartenstr. 30-31,13.3547316,52.50930109999999,100,99,99,1,1.86666666666667
+01P18,Bilinguale Schule Phorms Berlin Mitte,4,Schulen in privater Trägerschaft,1,Mitte,13355,Ackerstr. 76,13.3845491,52.538635,44,44,100,0,2.08636363636364
+01P22,Berlin Cosmopolitan School,4,Schulen in privater Trägerschaft,1,Mitte,10119,Rückerstr. 9,13.4066203,52.5277684,30,30,100,0,1.73
+01P23,Evangelische Schule Berlin Zentrum (Gemeinschaftsschule),4,Schulen in privater Trägerschaft,1,Mitte,10179,Wallstr. 32,13.4096857,52.5117473,106,106,100,0,1.9877358490566
+01Y02,John-Lennon-Gymnasium,2,Gymnasien,1,Mitte,10119,Zehdenicker Str. 17,13.4042846,52.53079959999999,119,118,99.16,0.8400000000000034,1.96101694915254
+01Y04,Musikgymnasium Carl Philipp Emanuel Bach,2,Gymnasien,1,Mitte,10115,Rheinsberger Str. 4-5,13.396638,52.536486,21,21,100,0,2.03809523809524
+01Y07,Französisches Gymnasium,2,Gymnasien,1,Mitte,10785,Derfflingerstr. 7,13.3555794,52.5033828,47,46,97.87,2.1299999999999955,1.71521739130435
+01Y08,Lessing-Gymnasium,2,Gymnasien,1,Mitte,13349,Schöningstr. 17,13.3438462,52.5573166,105,95,90.48,9.519999999999996,2.54
+01Y09,Diesterweg-Gymnasium,2,Gymnasien,1,Mitte,13357,Böttgerstr. 2-6,13.3785358,52.5501375,56,49,87.5,12.5,2.7530612244898
+01Y11,Max-Planck-Gymnasium,2,Gymnasien,1,Mitte,10179,Singerstr. 8A,13.4241024,52.5163452,91,85,93.41,6.590000000000003,2.51058823529412
+01Y12,Gymnasium Tiergarten,2,Gymnasien,1,Mitte,10555,Altonaer Str. 26,13.3395481,52.5195495,97,96,98.97,1.0300000000000011,2.49375
+02B05,Jane-Addams-Schule (OSZ Sozialwesen),1,berufliche Schulen,2,Friedrichshain-Kreuzberg,10249,Straßmannstr. 14-16,13.4488629,52.5217482,76,71,93.42,6.579999999999998,2.47464788732394
+02K01,Ellen-Key-Schule,3,ISS/Gemeinschaftsschulen,2,Friedrichshain-Kreuzberg,10243,Rüdersdorfer Str. 20-27,13.4379931,52.5151987,74,71,95.95,4.049999999999997,2.41267605633803
+02K02,Carl-von-Ossietzky-Gemeinschaftsschule,3,ISS/Gemeinschaftsschulen,2,Friedrichshain-Kreuzberg,10961,Blücherstr. 46-47,13.404084,52.4933566,95,92,96.84,3.1599999999999966,2.56304347826087
+02K04,Bergmannkiez-Gemeinschaftsschule,3,ISS/Gemeinschaftsschulen,2,Friedrichshain-Kreuzberg,10961,Gneisenaustr. 7,13.3898103,52.4917713,19,17,89.47,10.530000000000001,2.75294117647059
+02K06,Emanuel-Lasker-Schule (Gemeinschaftsschule),3,ISS/Gemeinschaftsschulen,2,Friedrichshain-Kreuzberg,10245,Modersohnstr. 53,13.4574487,52.5027397,35,33,94.29,5.709999999999994,2.58484848484848
+02K08,Refik-Veseli-Schule (Integrierte Sekundarschule),3,ISS/Gemeinschaftsschulen,2,Friedrichshain-Kreuzberg,10997,Skalitzer Str. 55,13.4356674,52.4989673,39,35,89.74,10.260000000000005,2.68857142857143
+02Y01,Andreas-Gymnasium,2,Gymnasien,2,Friedrichshain-Kreuzberg,10243,Koppenstr. 76,13.4346955,52.51408259999999,120,117,97.5,2.5,2.13418803418803
+02Y03,Heinrich-Hertz-Gymnasium,2,Gymnasien,2,Friedrichshain-Kreuzberg,10247,Rigaer Str. 81-82,13.4630622,52.5169486,74,74,100,0,1.78243243243243
+02Y04,Georg-Friedrich-Händel-Gymnasium,2,Gymnasien,2,Friedrichshain-Kreuzberg,10247,Frankfurter Allee 6A,13.4558011,52.5147518,68,68,100,0,1.82794117647059
+02Y05,Dathe-Gymnasium,2,Gymnasien,2,Friedrichshain-Kreuzberg,10243,Helsingforser Str. 11-13,13.4456153,52.5100972,81,80,98.77,1.230000000000004,2.105
+02Y06,Leibniz-Gymnasium,2,Gymnasien,2,Friedrichshain-Kreuzberg,10961,Schleiermacherstr. 23,13.3975097,52.4900953,86,86,100,0,2.22674418604651
+02Y07,Robert-Koch-Gymnasium,2,Gymnasien,2,Friedrichshain-Kreuzberg,10967,Dieffenbachstr. 60,13.4159092,52.4929359,73,64,87.67,12.329999999999998,2.528125
+02Y08,Hermann-Hesse-Gymnasium,2,Gymnasien,2,Friedrichshain-Kreuzberg,10967,Böckhstr. 16,13.4183648,52.4923423,90,85,94.44,5.560000000000002,2.55176470588235
+03A04,Abendgymnasium Prenzlauer Berg,5,"Kollegs, Abendgymnasien",3,Pankow,10439,Driesener Str. 22,13.4057075,52.5520404,16,16,100,0,2.1875
+03B04,Brillat-Savarin-Schule (OSZ Gastgewerbe),1,berufliche Schulen,3,Pankow,13088,Buschallee 23A,13.4756077,52.5528669,22,20,90.91,9.090000000000003,2.23
+03B07,Elinor-Ostrom-Schule (OSZ Bürowirtschaft und Dienstleistungen),1,berufliche Schulen,3,Pankow,10409,Mandelstr. 6-8,13.44136,52.54575,50,47,94,6,2.38936170212766
+03B10,Max-Bill-Schule (OSZ Planen  Bauen  Gestalten),1,berufliche Schulen,3,Pankow,13086,Gustav-Adolf-Straße 66,13.4513865,52.5579464,119,119,100,0,2.21260504201681
+03K01,Kurt-Schwitters-Schule,3,ISS/Gemeinschaftsschulen,3,Pankow,10405,Greifswalder Str. 25,13.4281977,52.5316349,103,103,100,0,2.26699029126214
+03K02,Kurt-Tucholsky-Schule (Integrierte Sekundarschule),3,ISS/Gemeinschaftsschulen,3,Pankow,13189,Neumannstr. 9-11,13.423424,52.5577145,108,100,92.59,7.409999999999997,2.302
+03K11,Wilhelm-von-Humboldt-Gemeinschaftsschule,3,ISS/Gemeinschaftsschulen,3,Pankow,10439,Erich-Weinert-Str. 70,13.4251974,52.5488034,35,35,100,0,1.98285714285714
+03P03-K,Schulen Christburg Campus Prenzlauer Berg,4,Schulen in privater Trägerschaft,3,Pankow,10405,Christburger Str. 14,13.4281656,52.5352904,22,22,100,0,2.41363636363636
+03P10,Katholische Theresienschule (Gymnasium),4,Schulen in privater Trägerschaft,3,Pankow,13086,Behaimstr. 29,13.4464619,52.55051940000001,62,62,100,0,1.69193548387097
+03P20,SchuleEins (Gemeinschaftsschule),4,Schulen in privater Trägerschaft,3,Pankow,13187,Berliner Str.120-121,13.4122028,52.5686092,30,28,93.33,6.670000000000002,2.38214285714286
+03P22,Klax-Gemeinschaftsschule,4,Schulen in privater Trägerschaft,3,Pankow,13189,Neumannstr. 13A,13.4223142,52.56120079999999,23,21,91.3,8.700000000000003,2.2047619047619
+03P37,Berlin Bilingual School (Integrierte Sekundarschule),4,Schulen in privater Trägerschaft,3,Pankow,13189,Granitzstr. 38A,13.4232986,52.5709279,18,18,100,0,1.95555555555556
+03Y03,Käthe-Kollwitz-Gymnasium,2,Gymnasien,3,Pankow,10439,Dunckerstr. 65-66,13.4226054,52.5458676,94,94,100,0,1.64468085106383
+03Y04,Heinrich-Schliemann-Gymnasium,2,Gymnasien,3,Pankow,10439,Dunckerstr. 64,13.4236494,52.5466749,138,138,100,0,2.10217391304348
+03Y08,Carl-von-Ossietzky-Gymnasium,2,Gymnasien,3,Pankow,13187,Görschstr. 42-44,13.4000128,52.56646000000001,149,149,100,0,1.93288590604027
+03Y10,Rosa-Luxemburg-Gymnasium,2,Gymnasien,3,Pankow,13189,Kissingenstr. 12,13.4196519,52.566717,149,149,100,0,1.7489932885906
+03Y13,Felix-Mendelssohn-Bartholdy-Gymnasium,2,Gymnasien,3,Pankow,10407,Pasteurstr. 7,13.4324999,52.5342056,181,177,97.79,2.2099999999999937,2.3090395480226
+03Y14,Primo-Levi-Gymnasium,2,Gymnasien,3,Pankow,13086,Pistoriusstr. 133,13.4540848,52.55136839999999,172,172,100,0,2.07325581395349
+03Y15,Max-Delbrück-Gymnasium,2,Gymnasien,3,Pankow,13156,Kuckhoffstr. 2,13.4021074,52.5839398,147,143,97.28,2.719999999999999,2.19370629370629
+03Y16,Robert-Havemann-Gymnasium,2,Gymnasien,3,Pankow,13125,Achillesstr. 79,13.4946266,52.6153956,102,99,97.06,2.9399999999999977,2.43737373737374
+03Y17,Inge-Deutschkron-Gymnasium,2,Gymnasien,3,Pankow,13158,Kopenhagener Str. 83-87,13.3641528,52.58214460000001,94,89,94.68,5.319999999999993,2.58539325842697
+04A04,Charlotte-Wolff-Kolleg,5,"Kollegs, Abendgymnasien",4,Charlottenburg-Wilmersdorf,10627,Pestalozzistr. 40-41,13.3034472,52.5080991,23,22,95.65,4.349999999999994,2.43636363636364
+04A06,Peter-A.-Silbermann-Schule,5,"Kollegs, Abendgymnasien",4,Charlottenburg-Wilmersdorf,10713,Blissestr. 22,13.3193906,52.4845306,20,19,95,5,2.16842105263158
+04A08,Sportschule im Olympiapark - Poelchau-Schule,3,ISS/Gemeinschaftsschulen,4,Charlottenburg-Wilmersdorf,14053,Prinz-Friedrich-Karl-Weg 1,13.2424857,52.520767,48,47,97.92,2.0799999999999983,2.1936170212766
+04B02,Hans-Litten-Schule (OSZ Recht und Wirtschaft),1,berufliche Schulen,4,Charlottenburg-Wilmersdorf,14059,Danckelmannstr. 26-28,13.2911678,52.5118547,61,55,90.16,9.840000000000003,2.65090909090909
+04B05,Anna-Freud-Schule (OSZ Sozialwesen),1,berufliche Schulen,4,Charlottenburg-Wilmersdorf,13627,Halemweg 22,13.2869879,52.5378519,86,78,90.7,9.299999999999997,2.49615384615385
+04K02,Friedensburg-Schule,3,ISS/Gemeinschaftsschulen,4,Charlottenburg-Wilmersdorf,10623,Goethestr. 8-9,13.32082,52.50908,96,90,93.75,6.25,2.24111111111111
+04K03,Robert-Jungk-Schule,3,ISS/Gemeinschaftsschulen,4,Charlottenburg-Wilmersdorf,10707,Sächsische Str. 58,13.3182464,52.4940811,84,81,96.43,3.569999999999993,2.47530864197531
+04K04,Nelson-Mandela-Schule,3,ISS/Gemeinschaftsschulen,4,Charlottenburg-Wilmersdorf,10717,Pfalzburger Str. 30,13.3209579,52.4909522,57,57,100,0,1.92982456140351
+04K05,Paula-Fürst-Schule (Gemeinschaftsschule),3,ISS/Gemeinschaftsschulen,4,Charlottenburg-Wilmersdorf,10629,Sybelstr. 20-21,13.3022958,52.5021718,75,67,89.33,10.670000000000002,2.35820895522388
+04P04,Katholische Schule Liebfrauen (Gymnasium),4,Schulen in privater Trägerschaft,4,Charlottenburg-Wilmersdorf,14050,Ahornallee 33,13.275045,52.5112801,91,91,100,0,1.94505494505495
+04P11,Evangelisches Gymnasium zum Grauen Kloster,4,Schulen in privater Trägerschaft,4,Charlottenburg-Wilmersdorf,14193,Salzbrunner Str. 41,13.2931157,52.4858852,67,67,100,0,1.71194029850746
+04P24,Moser-Schule - Schweizer Gymnasium,4,Schulen in privater Trägerschaft,4,Charlottenburg-Wilmersdorf,14052,Badenallee 31-32,13.2632959,52.5095675,45,44,97.78,2.219999999999999,1.94090909090909
+04Y01,Schiller-Gymnasium,2,Gymnasien,4,Charlottenburg-Wilmersdorf,10625,Schillerstr. 125-127,13.32182,52.510980000000004,119,119,100,0,2.18067226890756
+04Y02,Wald-Gymnasium,2,Gymnasien,4,Charlottenburg-Wilmersdorf,14055,Waldschulallee 95,13.2554332,52.50383610000001,98,98,100,0,2.30714285714286
+04Y03,Sophie-Charlotte-Gymnasium,2,Gymnasien,4,Charlottenburg-Wilmersdorf,10629,Sybelstr. 2,13.311985,52.5022589,81,79,97.53,2.469999999999999,2.47974683544304
+04Y04,Gottfried-Keller-Gymnasium,2,Gymnasien,4,Charlottenburg-Wilmersdorf,10589,Olbersstr. 38,13.3020964,52.52876999999999,62,59,95.16,4.840000000000003,2.56101694915254
+04Y05,Herder-Gymnasium,2,Gymnasien,4,Charlottenburg-Wilmersdorf,14052,Westendallee 45-46,13.2579401,52.5106672,104,99,95.19,4.810000000000002,1.95454545454545
+04Y06,Heinz-Berggruen-Gymnasium,2,Gymnasien,4,Charlottenburg-Wilmersdorf,14052,Bayernallee 4,13.2672177,52.5110284,111,110,99.1,0.9000000000000057,1.88727272727273
+04Y07,Friedrich-Ebert-Gymnasium,2,Gymnasien,4,Charlottenburg-Wilmersdorf,10713,Blissestr. 22,13.3193906,52.4845306,99,96,96.97,3.030000000000001,2.2375
+04Y08,Hildegard-Wegscheider-Gymnasium,2,Gymnasien,4,Charlottenburg-Wilmersdorf,14193,Lassenstr. 16-20,13.2769544,52.4852639,41,38,92.68,7.319999999999993,2.11052631578947
+04Y09,Walther-Rathenau-Gymnasium,2,Gymnasien,4,Charlottenburg-Wilmersdorf,14193,Herbertstr. 2-6,13.2810679,52.49153210000001,53,44,83.02,16.980000000000004,2.34772727272727
+04Y10,Marie-Curie-Gymnasium,2,Gymnasien,4,Charlottenburg-Wilmersdorf,10715,Weimarische Str. 21,13.3247718,52.4800924,105,99,94.29,5.709999999999994,2.3959595959596
+04Y11,Goethe-Gymnasium,2,Gymnasien,4,Charlottenburg-Wilmersdorf,10717,Gasteiner Str. 23,13.3217666,52.4872356,45,44,97.78,2.219999999999999,2.075
+05B01,OSZ TIEM (Technische Informatik  Industrieelektronik und EnergieManagement),1,berufliche Schulen,5,Spandau,13599,Goldbeckweg 8-14,13.2300787,52.5441625,23,20,86.96,13.040000000000006,2.59
+05K01,Martin-Buber-Oberschule (Integrierte Sekundarschule),3,ISS/Gemeinschaftsschulen,5,Spandau,13589,Im Spektefeld 33,13.1558866,52.54747649999999,123,116,94.31,5.689999999999998,2.33620689655172
+05K02,Carlo-Schmid-Oberschule (Integrierte Sekundarschule),3,ISS/Gemeinschaftsschulen,5,Spandau,13581,Lutoner Str. 15-19,13.1745844,52.52580270000001,91,74,81.32,18.680000000000007,2.60135135135135
+05K03,Bertolt-Brecht-Oberschule (Integrierte Sekundarschule),3,ISS/Gemeinschaftsschulen,5,Spandau,13595,Wilhelmstr. 10,13.1928588,52.5260685,85,74,87.06,12.939999999999998,2.86486486486486
+05K04,Heinrich-Böll-Oberschule (Integrierte Sekundarschule),3,ISS/Gemeinschaftsschulen,5,Spandau,13587,Am Forstacker 9-9a,13.199467,52.56342429999999,52,39,75,25,2.60769230769231
+05K06,Wolfgang-Borchert-Schule (Integrierte Sekundarschule),3,ISS/Gemeinschaftsschulen,5,Spandau,13585,Blumenstr. 13,13.1965731,52.5457019,20,18,90,10,3.12222222222222
+05K08,Schule an der Haveldüne (Integrierte Sekundarschule),3,ISS/Gemeinschaftsschulen,5,Spandau,13595,Jaczostr. 53-67,13.1862216,52.5109801,21,19,90.48,9.519999999999996,2.88421052631579
+05P03,Evangelische Schule Spandau im Johannesstift,4,Schulen in privater Trägerschaft,5,Spandau,13587,Schönwalder Allee 26,13.1971047,52.5688158,21,17,80.95,19.049999999999997,2.57058823529412
+05P13-Y,Wilhelmstadt Schulen,4,Schulen in privater Trägerschaft,5,Spandau,13593,Wilhelmstr. 28-30,13.1796068,52.5177644,53,53,100,0,2.13207547169811
+05Y01,Freiherr-vom-Stein-Gymnasium,2,Gymnasien,5,Spandau,13597,Galenstr. 40-44,13.1984788,52.5396839,128,120,93.75,6.25,2.34416666666667
+05Y02,Kant-Gymnasium,2,Gymnasien,5,Spandau,13585,Bismarckstr. 54,13.2010815,52.5427011,70,64,91.43,8.569999999999993,2.4640625
+05Y03,Hans-Carossa-Gymnasium,2,Gymnasien,5,Spandau,14089,Am Landschaftspark Gatow 40,13.13028,52.47244,113,108,95.58,4.420000000000002,2.19537037037037
+05Y04,Carl-Friedrich-von-Siemens-Gymnasium,2,Gymnasien,5,Spandau,13629,Jungfernheideweg 79,13.2699716,52.5457151,72,62,86.11,13.89,2.58064516129032
+05Y05,Lily-Braun-Gymnasium,2,Gymnasien,5,Spandau,13597,Münsingerstr. 2,13.1991226,52.5382471,74,74,100,0,2.42972972972973
+06B02,Louise-Schroeder-Schule (OSZ Bürowirtschaft und Verwaltung),1,berufliche Schulen,6,Steglitz-Zehlendorf,12207,Lippstädter Str. 9-11,13.3053417,52.41163419999999,36,27,75,25,2.72962962962963
+06B04,Wilhelm-Ostwald-Schule (OSZ Gestaltung),1,berufliche Schulen,6,Steglitz-Zehlendorf,12169,Immenweg 6,13.345344,52.4536652,32,30,93.75,6.25,2.58
+06K01,John-F.-Kennedy-Schule,3,ISS/Gemeinschaftsschulen,6,Steglitz-Zehlendorf,14167,Teltower Damm 87-93,13.2628098,52.4259348,78,77,98.72,1.2800000000000011,1.96233766233766
+06K02,Wilma-Rudolph-Schule (Integrierte Sekundarschule),3,ISS/Gemeinschaftsschulen,6,Steglitz-Zehlendorf,14169,Am Hegewinkel 2A,13.2608001,52.4550788,99,97,97.98,2.019999999999996,2.52164948453608
+06K03,Kopernikus-Schule (Integrierte Sekundarschule),3,ISS/Gemeinschaftsschulen,6,Steglitz-Zehlendorf,12163,Lepsiusstr. 24-28,13.3201117,52.4639001,67,54,80.6,19.400000000000006,2.82592592592593
+06K04,Bröndby-Schule (Integrierte Sekundarschule),3,ISS/Gemeinschaftsschulen,6,Steglitz-Zehlendorf,12249,Dessauerstr. 63,13.3458467,52.4281803,65,51,78.46,21.540000000000006,2.86666666666667
+06K11,Anna-Essinger-Gemeinschaftsschule,3,ISS/Gemeinschaftsschulen,6,Steglitz-Zehlendorf,12203,Tietzenweg 101,13.3099025,52.4389094,48,48,100,0,2.19583333333333
+06P06-K,Königin-Luise-Stiftung,4,Schulen in privater Trägerschaft,6,Steglitz-Zehlendorf,14195,Podbielskiallee 78,13.3024416,52.4602572,21,21,100,0,2.45238095238095
+06P06-Y,Königin-Luise-Stiftung,4,Schulen in privater Trägerschaft,6,Steglitz-Zehlendorf,14195,Podbielskiallee 78,13.3024416,52.4602572,54,54,100,0,2.09814814814815
+06P12,Evangelische Schule Steglitz (Integrierte Sekundarschule),4,Schulen in privater Trägerschaft,6,Steglitz-Zehlendorf,12167,Beymestr. 6-7,13.3313952,52.450697,34,33,97.06,2.9399999999999977,2.61818181818182
+06P18,Bilinguale Schule Phorms Berlin Süd,4,Schulen in privater Trägerschaft,6,Steglitz-Zehlendorf,14167,Harry-S.-Truman-Allee 3,13.2838934,52.4203746,33,32,96.97,3.030000000000001,1.825
+06P20,Freie Schule Anne-Sophie Berlin,4,Schulen in privater Trägerschaft,6,Steglitz-Zehlendorf,14169,Clayallee 328-334,13.2628931,52.43770240000001,33,32,96.97,3.030000000000001,1.99375
+06Y01,Schadow-Gymnasium,2,Gymnasien,6,Steglitz-Zehlendorf,14163,Beuckestr. 27-29,13.2547402,52.4314711,125,125,100,0,2.0248
+06Y02,Droste-Hülshoff-Gymnasium,2,Gymnasien,6,Steglitz-Zehlendorf,14165,Schönower Str. 8,13.2570295,52.4288306,120,119,99.17,0.8299999999999983,2.21008403361345
+06Y03,Arndt-Gymnasium Dahlem,2,Gymnasien,6,Steglitz-Zehlendorf,14195,Königin-Luise-Str. 80-84,13.280251,52.45869150000001,119,119,100,0,1.79327731092437
+06Y04,Dreilinden-Gymnasium,2,Gymnasien,6,Steglitz-Zehlendorf,14109,Dreilindenstr. 49,13.1878821,52.4202972,90,88,97.78,2.219999999999999,2.2875
+06Y05,Werner-von-Siemens-Gymnasium,2,Gymnasien,6,Steglitz-Zehlendorf,14129,Beskidenstr. 3,13.2124435,52.43114,117,117,100,0,1.8965811965812
+06Y06,Beethoven-Gymnasium,2,Gymnasien,6,Steglitz-Zehlendorf,12249,Barbarastr. 9,13.3432058,52.4334121,117,117,100,0,1.91794871794872
+06Y07,Paulsen-Gymnasium,2,Gymnasien,6,Steglitz-Zehlendorf,12163,Gritznerstr. 57,13.3144697,52.4617739,79,78,98.73,1.269999999999996,2.33974358974359
+06Y08,Hermann-Ehlers-Gymnasium,2,Gymnasien,6,Steglitz-Zehlendorf,12169,Elisenstr. 3-4,13.3346948,52.453105,67,67,100,0,2.66417910447761
+06Y09,Fichtenberg-Oberschule,2,Gymnasien,6,Steglitz-Zehlendorf,12165,Rothenburgstr. 18,13.3128051,52.4538929,112,103,91.96,8.040000000000006,2.26699029126214
+06Y10,Lilienthal-Gymnasium,2,Gymnasien,6,Steglitz-Zehlendorf,12203,Ringstr. 2-3,13.3120652,52.4359464,118,115,97.46,2.5400000000000063,2.35652173913043
+06Y11,Goethe-Gymnasium Lichterfelde,2,Gymnasien,6,Steglitz-Zehlendorf,12205,Drakestr. 72-74,13.3053324,52.43491239999999,122,121,99.18,0.8199999999999932,2.18512396694215
+06Y12,Willi-Graf-Gymnasium,2,Gymnasien,6,Steglitz-Zehlendorf,12207,Ostpreußendamm 166,13.3213605,52.4346396,74,74,100,0,2.27027027027027
+06Y13,Gymnasium Steglitz,2,Gymnasien,6,Steglitz-Zehlendorf,12169,Heesestr. 15,13.3265353,52.4569382,86,85,98.84,1.1599999999999966,1.89529411764706
+07A05,Kolleg Schöneberg,5,"Kollegs, Abendgymnasien",7,Tempelhof-Schöneberg,10787,Nürnberger Str. 63,13.3413699,52.50332539999999,41,40,97.56,2.4399999999999977,2.105
+07B03,OSZ Lotis (Logistik  Touristik und Steuern),1,berufliche Schulen,7,Tempelhof-Schöneberg,10965,Dudenstr. 35-37,13.3801123,52.4846922,31,26,83.87,16.129999999999995,2.48076923076923
+07K01,Sophie-Scholl-Schule,3,ISS/Gemeinschaftsschulen,7,Tempelhof-Schöneberg,10781,Elßholzstr. 34-37,13.3569736,52.4940504,111,110,99.1,0.9000000000000057,2.16545454545455
+07K02,Carl-Zeiss-Schule,3,ISS/Gemeinschaftsschulen,7,Tempelhof-Schöneberg,12305,Barnetstr. 12-14,13.40258,52.39571,87,78,89.66,10.340000000000003,2.62564102564103
+07K03,Gustav-Heinemann-Oberschule,3,ISS/Gemeinschaftsschulen,7,Tempelhof-Schöneberg,12279,Waldsassener Str. 62,13.3469964,52.407072600000014,91,87,95.6,4.400000000000006,2.30459770114943
+07K12,Friedenauer Gemeinschaftsschule,3,ISS/Gemeinschaftsschulen,7,Tempelhof-Schöneberg,12157,Rubensstr. 63,13.3440711,52.4698004,30,26,86.67,13.329999999999998,2.61923076923077
+07P01,Katholische Schule Sankt Franziskus (Integrierte Sekundarschule),4,Schulen in privater Trägerschaft,7,Tempelhof-Schöneberg,10781,Hohenstaufenstr. 1-2,13.3534997,52.4951507,57,53,92.98,7.019999999999996,2.55283018867925
+07Y01,Robert-Blum-Gymnasium,2,Gymnasien,7,Tempelhof-Schöneberg,10829,Kolonnenstr. 21,13.3647649,52.4848465,96,92,95.83,4.170000000000002,2.19130434782609
+07Y02,Rückert-Gymnasium,2,Gymnasien,7,Tempelhof-Schöneberg,10825,Mettestr. 8,13.3388204,52.48032079999999,69,66,95.65,4.349999999999994,2.41666666666667
+07Y03,Rheingau-Gymnasium,2,Gymnasien,7,Tempelhof-Schöneberg,12161,Schwalbacher Str. 3-4,13.3225874,52.4706822,82,81,98.78,1.2199999999999989,2.16543209876543
+07Y04,Paul-Natorp-Gymnasium,2,Gymnasien,7,Tempelhof-Schöneberg,12161,Goßlerstr. 13-15,13.3243299,52.4693854,106,105,99.06,0.9399999999999977,1.88952380952381
+07Y05,Luise-Henriette-Gymnasium,2,Gymnasien,7,Tempelhof-Schöneberg,12105,Kurfürstenstr. 53-54,13.3837948,52.4479795,56,51,91.07,8.930000000000007,2.46666666666667
+07Y06,Askanisches Gymnasium,2,Gymnasien,7,Tempelhof-Schöneberg,12103,Kaiserin-Augusta-Str. 19/20,13.3799519,52.4598994,82,78,95.12,4.8799999999999955,2.55769230769231
+07Y07,Eckener-Gymnasium,2,Gymnasien,7,Tempelhof-Schöneberg,12105,Kaiserstr. 17-21,13.3807126,52.4448636,81,78,96.3,3.700000000000003,2.28333333333333
+07Y08,Ulrich-von-Hutten-Gymnasium,2,Gymnasien,7,Tempelhof-Schöneberg,12307,Rehagener Str. 35-37,13.4039263,52.3857173,104,95,91.35,8.650000000000006,2.18526315789474
+07Y09,Georg-Büchner-Gymnasium,2,Gymnasien,7,Tempelhof-Schöneberg,12305,Lichtenrader Damm 224,13.4055328,52.39225889999999,74,72,97.3,2.700000000000003,2.25
+08B02,Lise-Meitner-Schule (OSZ Chemie  Physik und Biologie),1,berufliche Schulen,8,Neukölln,12351,Lipschitzallee 25,13.4733399,52.42927,56,47,83.93,16.069999999999993,2.41702127659574
+08B04,OSZ Informations- und Medizintechnik,1,berufliche Schulen,8,Neukölln,12359,Haarlemer Str. 23-27,13.4500956,52.4579277,34,33,97.06,2.9399999999999977,2.70909090909091
+08K01,Walter-Gropius-Schule (Gemeinschaftsschule),3,ISS/Gemeinschaftsschulen,8,Neukölln,12351,Fritz-Erler-Allee 86,13.4635309,52.4293515,55,45,81.82,18.180000000000007,2.86444444444444
+08K03,Otto-Hahn-Schule,3,ISS/Gemeinschaftsschulen,8,Neukölln,12359,Buschkrugallee 63,13.4493011,52.457716,40,22,55,45,2.94545454545455
+08K05,Clay-Schule,3,ISS/Gemeinschaftsschulen,8,Neukölln,12355,Neudecker Weg 22,13.5161032,52.42187819999999,68,60,88.24,11.760000000000005,2.66833333333333
+08K06,Fritz-Karsen-Schule (Gemeinschaftsschule),3,ISS/Gemeinschaftsschulen,8,Neukölln,12359,Onkel-Bräsig-Str. 76-78,13.44389,52.44865,76,67,88.16,11.840000000000003,2.57164179104478
+08K08,Gemeinschaftsschule auf dem Campus Rütli,3,ISS/Gemeinschaftsschulen,8,Neukölln,12045,Rütlistr. 41,13.4341894,52.4878839,29,27,93.1,6.900000000000006,2.86666666666667
+08P03,Evangelische Schule Neukölln (Integrierte Sekundarschule),4,Schulen in privater Trägerschaft,8,Neukölln,12053,Mainzer Str. 47,13.42761,52.48338,59,59,100,0,2.10847457627119
+08P04-K,Katholische Schule Sankt Marien,4,Schulen in privater Trägerschaft,8,Neukölln,12043,Donaustr. 58,13.4431204,52.477449,35,33,94.29,5.709999999999994,2.65757575757576
+08P04-Y,Katholische Schule Sankt Marien,4,Schulen in privater Trägerschaft,8,Neukölln,12043,Donaustr. 58,13.4431204,52.477449,60,59,98.33,1.6700000000000017,2.24406779661017
+08Y01,Albrecht-Dürer-Gymnasium,2,Gymnasien,8,Neukölln,12051,Emser Str. 133-137,13.4396062,52.4694704,60,55,91.67,8.329999999999998,2.45090909090909
+08Y02,Albert-Schweitzer-Gymnasium,2,Gymnasien,8,Neukölln,12043,Karl-Marx-Str. 14,13.4266525,52.48468159999999,68,55,80.88,19.120000000000005,2.48181818181818
+08Y03,Albert-Einstein-Gymnasium,2,Gymnasien,8,Neukölln,12359,Parchimer Allee 109,13.442845,52.4455053,136,133,97.79,2.2099999999999937,2.37593984962406
+08Y04,Ernst-Abbe-Gymnasium,2,Gymnasien,8,Neukölln,12045,Sonnenallee 79,13.437204,52.4834413,82,81,98.78,1.2199999999999989,2.60864197530864
+08Y05,Leonardo-da-Vinci-Gymnasium,2,Gymnasien,8,Neukölln,12349,Christoph-Ruden-Str. 3,13.4359494,52.4188272,84,70,83.33,16.67,2.65571428571429
+08Y06,Hannah-Arendt-Gymnasium,2,Gymnasien,8,Neukölln,12355,Elfriede-Kuhr-Str. 17,13.5083919,52.4040426,113,107,94.69,5.310000000000002,2.28411214953271
+09A05,Treptow-Kolleg,5,"Kollegs, Abendgymnasien",9,Treptow-Köpenick,12437,Kiefholzstr. 274,13.4845706,52.4681568,31,28,90.32,9.680000000000007,2.10714285714286
+09B03,Hermann-Scheer-Schule (OSZ Wirtschaft),1,berufliche Schulen,9,Treptow-Köpenick,12459,Helmholtzstr. 37,13.507102099999999,52.4662195,41,38,92.68,7.319999999999993,2.65526315789474
+09K01,Merian-Schule (Integrierte Sekundarschule),3,ISS/Gemeinschaftsschulen,9,Treptow-Köpenick,12555,Hoernlestr. 80,13.5767236,52.4644226,101,97,96.04,3.9599999999999937,2.4340206185567
+09K02,Anna-Seghers-Schule (Gemeinschaftsschule),3,ISS/Gemeinschaftsschulen,9,Treptow-Köpenick,12489,Radickestr. 43,13.5484835,52.4352189,92,80,86.96,13.040000000000006,2.3925
+09K07,Sophie-Brahe-Gemeinschaftsschule,3,ISS/Gemeinschaftsschulen,9,Treptow-Köpenick,12435,Am Plänterwald 17-23,13.4782899,52.481807,33,29,87.88,12.120000000000005,2.67931034482759
+09K08,Schule an der Dahme (Integrierte Sekundarschule),3,ISS/Gemeinschaftsschulen,9,Treptow-Köpenick,12557,Glienicker Str. 24-30,13.56727,52.44056,20,18,90,10,2.33333333333333
+09K09,Grünauer Gemeinschaftsschule,3,ISS/Gemeinschaftsschulen,9,Treptow-Köpenick,12527,Walchenseestr. 40,13.5761058,52.4193801,49,44,89.8,10.200000000000003,2.5
+09P07,Evangelische Schule Köpenick (Gymnasium),4,Schulen in privater Trägerschaft,9,Treptow-Köpenick,12557,Grüne Trift 169,13.591925,52.4234575,71,71,100,0,2.02535211267606
+09Y03,Archenhold-Gymnasium,2,Gymnasien,9,Treptow-Köpenick,12439,Rudower Str. 7,13.5226437,52.4512268,99,99,100,0,2.31919191919192
+09Y04,Anne-Frank-Gymnasium,2,Gymnasien,9,Treptow-Köpenick,12524,Uranusstr. 15-17,13.5258795,52.4016968,96,87,90.62,9.379999999999995,2.22873563218391
+09Y05,Alexander-von-Humboldt-Gymnasium,2,Gymnasien,9,Treptow-Köpenick,12555,Oberspreestr. 173,13.5669791,52.44524999999999,78,72,92.31,7.689999999999998,2.20555555555556
+09Y06,Gerhart-Hauptmann-Gymnasium,2,Gymnasien,9,Treptow-Köpenick,12587,Bruno-Wille-Str. 37-39,13.632719700000001,52.4522719,100,99,99,1,2.04646464646465
+09Y10,Gebrüder-Montgolfier-Gymnasium,2,Gymnasien,9,Treptow-Köpenick,12487,Ellernweg 20-22,13.5037052,52.4484412,93,91,97.85,2.1500000000000057,2.2032967032967
+09Y11,Emmy-Noether-Gymnasium,2,Gymnasien,9,Treptow-Köpenick,12559,Pablo-Neruda-Str. 6-7,13.5881833,52.4429501,82,77,93.9,6.099999999999994,2.17402597402597
+10A04,Victor-Klemperer-Kolleg,5,"Kollegs, Abendgymnasien",10,Marzahn-Hellersdorf,12681,Martha-Arendsee-Str. 15,13.5388412,52.5363206,63,56,88.89,11.11,2.08214285714286
+10B02,Rahel-Hirsch-Schule (OSZ Gesundheit/Medizin),1,berufliche Schulen,10,Marzahn-Hellersdorf,12627,Peter-Weiss-Gasse 8,13.6078382,52.538658,81,80,98.77,1.230000000000004,2.4125
+10K01,Rudolf-Virchow-Schule,3,ISS/Gemeinschaftsschulen,10,Marzahn-Hellersdorf,12679,Glambecker Ring 90,13.5757944,52.5554925,83,74,89.16,10.840000000000003,2.80405405405405
+10K02,Ernst-Haeckel-Schule,3,ISS/Gemeinschaftsschulen,10,Marzahn-Hellersdorf,12629,Luckenwalder Str. 53,13.5861171,52.5431085,53,51,96.23,3.769999999999996,2.62352941176471
+10Y01,Tagore-Gymnasium,2,Gymnasien,10,Marzahn-Hellersdorf,12687,Sella-Hasse-Str. 25,13.5566977,52.552875,87,82,94.25,5.75,2.50609756097561
+10Y02,Otto-Nagel-Gymnasium,2,Gymnasien,10,Marzahn-Hellersdorf,12683,Schulstr. 11,13.5495976,52.5119606,111,111,100,0,1.97927927927928
+10Y03,Wilhelm-von-Siemens-Gymnasium,2,Gymnasien,10,Marzahn-Hellersdorf,12683,Allee der Kosmonauten 134,13.5514888,52.5336076,110,99,90,10,2.36767676767677
+10Y08,Sartre-Gymnasium,2,Gymnasien,10,Marzahn-Hellersdorf,12629,Kyritzer Str. 103,13.5910072,52.5430474,62,50,80.65,19.349999999999994,2.55
+10Y11,Melanchthon-Gymnasium,2,Gymnasien,10,Marzahn-Hellersdorf,12627,Adele-Sandrock-Str. 73-75,13.6185536,52.5343749,122,114,93.44,6.560000000000002,2.28245614035088
+11A07,Schul- und Leistungssportzentrum Berlin (Sportforum),3,ISS/Gemeinschaftsschulen,11,Lichtenberg,13053,Fritz-Lesch-Str. 35,13.4772198,52.5464706,69,66,95.65,4.349999999999994,2.34090909090909
+11B02,Max-Taut-Schule (OSZ Gebäude  Umwelt  Technik),1,berufliche Schulen,11,Lichtenberg,10317,Fischerstr. 36,13.4876098,52.5002912,38,36,94.74,5.260000000000005,2.34444444444444
+11K02,Mildred-Harnack-Schule,3,ISS/Gemeinschaftsschulen,11,Lichtenberg,10365,Schulze-Boysen-Str. 12,13.4812666,52.511322,65,63,96.92,3.0799999999999983,2.34603174603175
+11K04,Gutenberg-Schule,3,ISS/Gemeinschaftsschulen,11,Lichtenberg,13055,Sandinostr. 10,13.4840714,52.5366272,108,102,94.44,5.560000000000002,2.57549019607843
+11K05,Fritz-Reuter-Schule,3,ISS/Gemeinschaftsschulen,11,Lichtenberg,13059,Prendener Str. 29,13.5210384,52.5698139,41,34,82.93,17.069999999999993,2.65882352941176
+11K08,Schule-am-Tierpark (Integrierte Sekundarschule),3,ISS/Gemeinschaftsschulen,11,Lichtenberg,10319,Sewanstr. 223,13.5150535,52.4965622,26,18,69.23,30.769999999999996,2.83333333333333
+11K10,Grüner Campus Malchow (Gemeinschaftsschule),3,ISS/Gemeinschaftsschulen,11,Lichtenberg,13051,Malchower Chaussee 2,13.4735789,52.5667834,58,52,89.66,10.340000000000003,2.42692307692308
+11K12,Paul-und-Charlotte-Kniese-Schule (Gemeinschaftsschule),3,ISS/Gemeinschaftsschulen,11,Lichtenberg,10319,Erich-Kurz-Str. 6-10,13.5177808,52.4989143,24,20,83.33,16.67,2.885
+11Y02,Johann-Gottfried-Herder-Gymnasium,2,Gymnasien,11,Lichtenberg,10369,Franz-Jacob-Str. 8,13.4670723,52.52683589999999,128,127,99.22,0.7800000000000011,1.85905511811024
+11Y05,Hans-und-Hilde-Coppi-Gymnasium,2,Gymnasien,11,Lichtenberg,10318,Römerweg 30-32,13.523232,52.4918639,104,100,96.15,3.8499999999999943,2.126
+11Y09,Barnim-Gymnasium,2,Gymnasien,11,Lichtenberg,13057,Ahrensfelder Chaussee 41,13.5473439,52.5699029,138,137,99.28,0.7199999999999989,2.26569343065693
+11Y10,Manfred-von-Ardenne-Gymnasium,2,Gymnasien,11,Lichtenberg,13055,Werneuchener Str. 27-28,13.4929919,52.5417543,118,99,83.9,16.099999999999994,2.43939393939394
+11Y11,Immanuel-Kant-Gymnasium,2,Gymnasien,11,Lichtenberg,10317,Lückstr. 63,13.4895645,52.5020226,100,97,97,3,2.17628865979381
+12B02,Emil-Fischer-Schule (OSZ Ernährung und Lebensmitteltechnik),1,berufliche Schulen,12,Reinickendorf,13437,Cyclopstr. 1-5,13.3303712,52.5979835,74,63,85.14,14.86,2.5047619047619
+12K02,Bettina-von-Arnim-Schule,3,ISS/Gemeinschaftsschulen,12,Reinickendorf,13435,Senftenberger Ring 49,13.3542708,52.6016352,95,73,76.84,23.159999999999997,2.6
+12K03,Max-Beckmann-Schule (Integrierte Sekundarschule),3,ISS/Gemeinschaftsschulen,12,Reinickendorf,13403,Auguste-Viktoria-Allee 37,13.31463,52.57153,99,87,87.88,12.120000000000005,2.69885057471264
+12P03,Evangelische Schule Frohnau,4,Schulen in privater Trägerschaft,12,Reinickendorf,13465,Benediktinerstr. 11-19,13.2826636,52.63125110000001,61,61,100,0,1.61967213114754
+12P04-Y,Katholische Schule Salvator,4,Schulen in privater Trägerschaft,12,Reinickendorf,13469,Fürst-Bismarck-Str. 8-10,13.31255,52.6090901,78,76,97.44,2.5600000000000023,2.24078947368421
+12Y01,Friedrich-Engels-Gymnasium,2,Gymnasien,12,Reinickendorf,13407,Emmentaler Str. 67,13.3570471,52.5696643,103,97,94.17,5.829999999999998,2.38865979381443
+12Y02,Europäisches Gymnasium Bertha-von-Suttner,2,Gymnasien,12,Reinickendorf,13409,Reginhardstr. 172,13.3687034,52.5714474,123,118,95.93,4.069999999999993,2.03389830508475
+12Y03,Humboldt-Gymnasium,2,Gymnasien,12,Reinickendorf,13509,Hatzfeldtallee 2-4,13.28891,52.59176000000001,153,148,96.73,3.269999999999996,2.11689189189189
+12Y04,Gabriele-von-Bülow-Gymnasium,2,Gymnasien,12,Reinickendorf,13509,Tile-Brügge-Weg 63,13.2965987,52.59220149999999,123,120,97.56,2.4399999999999977,2.29583333333333
+12Y05,Georg-Herwegh-Gymnasium,2,Gymnasien,12,Reinickendorf,13467,Fellbacher Str. 18-19,13.3029475,52.6166632,92,89,96.74,3.260000000000005,2.32696629213483
+12Y06,Schulfarm Insel Scharfenberg,2,Gymnasien,12,Reinickendorf,13505,Schwarzer Weg 101-105,13.2474008,52.5752341,53,52,98.11,1.8900000000000006,2.41923076923077
+12Y07,Romain-Rolland-Gymnasium,2,Gymnasien,12,Reinickendorf,13469,Place Molière 4,13.3179276,52.5989581,114,107,93.86,6.140000000000001,2.28504672897196
+12Y08,Thomas-Mann-Gymnasium,2,Gymnasien,12,Reinickendorf,13439,Königshorster Str. 10,13.3521806,52.5988294,113,102,90.27,9.730000000000004,2.67941176470588

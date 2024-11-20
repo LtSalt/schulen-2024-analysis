@@ -1,0 +1,212 @@
+---
+title: "Exploration"
+format: pdf
+editor: source
+execute: 
+  echo: false
+  warning: false
+  message: false
+editor_options: 
+  chunk_output_type: console
+---
+
+
+```{r}
+#| output: false
+
+if (!"pacman" %in% installed.packages()) install.packages("pacman")
+pacman::p_load(tidyverse, here, scales, sf, units, patchwork)
+
+theme_set(theme_light())
+
+schools <- read_csv(here("data/processed/schools.csv"))
+ring <- read_sf(here("data/raw/berlin-s-bahn-ring.geojson"))
+borroughs <- st_read(here("data/raw/lor_ortsteile.geojson"))
+immo_prices <- read_csv(here("data/raw/AHS-Index-PURCH-PLZ-2024.csv"))
+
+berlin_coords <- tibble(lon = 13.4050, lat = 52.5200) %>% 
+  st_as_sf(coords = c("lon", "lat"), crs = 4326)
+```
+
+## TLDR
+
+- Die Schulform ist wichtig. Privatschulen und Gymnasien schneiden wie erwartet besser ab als Berufs- und Gemeinschaftsschulen. Allerdings ist die Streuung groß, besonders bei der Durchfallquote. Es gibt über alle Schulformen hinweg Schulen, in denen viel mehr Schüler:innen als normal die Abiprüfung nicht bestehen.
+- Auch der Kiez spielt eine Rolle. Einen pauschalen Gegensatz zwischen Innenstand und Außenbezirken gibt es nicht. Man sieht aber ein deutliches Gefälle zwischen den Ortsteilen und entlang der Grundstückspreise.
+
+## Verteilung
+
+Der Abischnitt an den Berliner Schulen liegt im Mittel (Median) bei 2.34. Die Werte der einzelnen Schulen streuen entlang einer Normalverteilung um diesen Mittelwert.
+
+```{r}
+#| fig-height: 3
+
+schools %>% 
+  ggplot(aes(x = abischnitt)) +
+  geom_histogram(binwidth = 0.1) +
+  geom_vline(xintercept = median(schools$abischnitt), linetype = 2) +
+  coord_cartesian(expand = FALSE) +
+  labs(x = "Abischnitt",
+       y = "Anzahl der Schulen")
+```
+
+Die mittlere Durchfallquote liegt bei 5,4 %. Die Verteilung ist right-skewed: *An den meisten Schulen fallen wenige Schüler durch, an wenigen Schulen aber viele.*
+
+```{r}
+#| fig-height: 3
+
+schools %>% 
+  ggplot(aes(x = pct_fail)) +
+  geom_histogram(bins = 30)  +
+  geom_vline(xintercept = median(schools$pct_fail), linetype = 2) +
+  scale_x_continuous(label = label_percent(scale = 1)) +
+  coord_cartesian(expand = FALSE) +
+  labs(x = "Durchfallquote",
+       y = "Anzahl der Schulen")
+```
+
+
+## Schulform
+
+Zwischen den Schulen gibt es im Mittel grosse Unterschiede. An Privatschulen ist das Abi zum Beispiel um 0,5 besser als an den Gemeinschaftsschulen. Hier fällt in der Regel *niemand* durch, während an Gemeinschaftsschulen rund ein Zehntel des Jahrgangs die Prüfung gar nicht besteht:
+
+```{r}
+ranked_schulform_abi <- schools %>% 
+  summarise(abischnitt = median(abischnitt),
+            pct_fail = median(pct_fail),
+            .by = schulform_name) %>%
+  arrange(abischnitt)
+
+ranked_schulform_abi
+```
+
+Allgemein zeigt sich ein Gefälle zwischen den Privatschulen & Gymnasien auf der einen und den Berufs- und Gemeinschaftsschulen auf der anderen Seite. (Bei den wenigen Abendschulen ist das Bild komplizierter.) 
+
+Allerdings ist die Streuung groß. Es gibt z.B. auch einige Gemeinschaftsschulen, die ein deutlich besseres Durschschnittsabi als viele Privatschulen haben:
+
+```{r}
+schools %>% 
+  mutate(schulform_name = fct_relevel(as.factor(schulform_name),
+                                      rev(ranked_schulform_abi$schulform_name))) %>% 
+  ggplot(aes(x = abischnitt, y = schulform_name)) +
+  geom_boxplot(outliers = FALSE) +
+  geom_jitter(height = 0.2) +
+  theme_light() +
+  labs(x = "Abischnitt",
+       y = NULL)
+```
+
+Das gilt nochmal stärker fuer die Durchfallquote. Spitzenwerte finden sich wie zu erwarten an Gemeinschaftsschulen (Otto-Hahn-Schule: 45,00 %, Ernst-Reuter-Schule:35,42 %). Es gibt aber auch einige Privatschulen (Evangelische Schule Spandau im Johannesstift: 19,05 %, Klax-Gemeinschaftsschule: 8,70 %) und Gymnasien (Sartre-Gymnasium: 19,35 %, Albert-Schweitzer-Gymnasium: 19,12 %), an denen sehr viele Schüler:innen das Abi nicht bestehen.
+
+```{r}
+#| fig-height: 3
+
+ranked_schulform_fail <- schools %>%
+  summarise(pct_fail = median(pct_fail), .by = schulform_name) %>%
+  arrange(pct_fail)
+
+schools %>%
+  mutate(schulform_name = fct_relevel(as.factor(schulform_name),
+                                      rev(ranked_schulform_fail$schulform_name))) %>% 
+  ggplot(aes(x = pct_fail, y = schulform_name)) +
+  geom_boxplot(outliers = FALSE) +
+  geom_jitter(height = 0.2) +
+  theme_light() +
+  labs(x = "Durchfallquote",
+       y = NULL)
+```
+
+
+## Lage
+
+Bei den Schulen zeigt sich kein pauschaler Gegensatz zwischen Innenstadt und Außenbezirken. Der Abischnitt hängt nicht davon ab, wie weit eine Schule vom Stadtzentrum entfernt ist. Dasselbe gilt für die Durchfallquote (hier nicht berichtet).
+
+```{r}
+schools %>% 
+  st_as_sf(coords = c("lon", "lat"), crs = 4326) %>% 
+  mutate(dist = set_units(st_distance(., berlin_coords), "km")) %>% 
+  ggplot(aes(x = dist, y = abischnitt)) +
+  geom_point() +
+  geom_smooth(method = "lm") +
+  theme_light() +
+  labs(x = "Abstand zum Stadtzentrum",
+       y = "Abischnitt")
+```
+
+Auch wenn man grob zwischen den Schulen inner- und außerhalb des Rings unterscheidet, zeigt sich keine benachteiligte "Peripherie". Wenn überhaupt, dann ist es andersrum: Die Schulen im Ring schneiden etwas schlechter ab.
+
+```{r}
+d1 <- schools %>% 
+  st_as_sf(coords = c("lon", "lat"), crs = 4326) %>% 
+  mutate(in_ring = as.logical(st_intersects(., ring, sparse = FALSE))) %>%
+  ggplot(aes(x = abischnitt, fill = in_ring)) +
+  geom_density(alpha = 0.5) +
+  labs(x = "Abischnitt",
+       y = NULL,
+       fill = "Im Ring")
+
+d2 <- schools %>% 
+  st_as_sf(coords = c("lon", "lat"), crs = 4326) %>% 
+  mutate(in_ring = as.logical(st_intersects(., ring, sparse = FALSE))) %>%
+  ggplot(aes(x = pct_fail, fill = in_ring)) +
+  geom_density(alpha = 0.5) +
+  scale_x_continuous(label = label_percent(scale = 1)) +
+  labs(x = "Durchfallquote",
+       y = NULL,
+       fill = "Im Ring")
+
+d1 / d2 +
+  plot_layout(guides = "collect")
+```
+
+Aber: Die Performance einer Schule hängt sehr wohl mit ihrem Standort zusammen. Zwischen den Bezirken lässt sich ein deutliches Gefälle ausmachen:
+
+```{r}
+levels <- schools %>% 
+  summarise(abischnitt = median(abischnitt), 
+            .by = bezirk_name) %>% 
+  arrange(desc(abischnitt)) %>% 
+  pull(bezirk_name)
+
+schools %>% 
+  mutate(bezirk_name = fct_relevel(as.factor(bezirk_name), levels)) %>% 
+  ggplot(aes(x = abischnitt, y = bezirk_name)) +
+  geom_boxplot() +
+  geom_jitter() +
+  theme_light() +
+  labs(x = "Abischnitt",
+       y = NULL)
+```
+
+Und erst recht zwischen den Orsteilen:
+
+```{r}
+schools %>% 
+  st_as_sf(coords = c("lon", "lat"), crs = 4326) %>% 
+  st_join(borroughs) %>% 
+  rename(Ortsteil = OTEIL) %>% 
+  st_drop_geometry() %>% 
+  summarise(abischnitt = median(abischnitt), 
+            pct_fail = median(pct_fail),
+            .by = Ortsteil) %>%
+  rename(Abischnitt = abischnitt,
+         Durchfallquote = pct_fail) %>% 
+  ggplot(aes(x = Abischnitt, y = Durchfallquote, label = Ortsteil)) +
+  geom_point() +
+  scale_y_continuous(label = label_percent(scale = 1)) +
+  labs(x = "Median Abischnitt je Ortsteil")
+```
+
+Beim Bildungserfolg sieht man also eine residentielle Segregation. Die zeigt sich auch, wenn man zum Beispiel die Schulnoten zu den Grundstückspreisen in direkter Nachbarschaft in Beziehung setzt. Bessere Schule stehen eher in Postleitzahl-Gebieten, in denen Häuser und Wohnungen mehr kosten:
+
+```{r}
+schools %>% 
+  left_join(immo_prices, by = c("plz" = "postcode_id")) %>% 
+  ggplot(aes(x = price_qm2023, y = abischnitt)) +
+  geom_point() +
+  geom_smooth() +
+  labs(x = "Kaufpreis pro m2 in Euro",
+       y = "Abischnitt")
+```
+
+Warum? Eigentlich besuchen Abiturient:innen nicht notwendigerweise eine Schule in ihrem Kiez. Eine Erklärung wäre, dass Schulen in besser betuchten Gegenden mehr Ressourcen haben (Geld vom Senat, Unterstützung aus Elternkreisen etc.). Eine andere Erklärung wäre, dass die Schüler eben doch verstärkt aus der (tendenziell wohlhabenden) Umgebung kommen.
+
